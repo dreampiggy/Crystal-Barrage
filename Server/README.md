@@ -1,22 +1,28 @@
 # Crystal Barrage Server
 
-# Use
+# 使用
 
-`OS` : Ubuntu 14.10 x32 or others
+`部署系统` : Ubuntu 14.10 x86
 
-`Node.js` : v0.12.2 or more
+`Node.js版本` : v0.12.2 or more
 
-`MySQL` : Any version
+`MySQL版本` : Any version
 
-# Config
+# 配置
 
-1. Database : `config.js`
-2. Wechat `handler.js`
+1. 数据库配置 : `config.js`
+2. 微信配置Token等 `handler.js`
 
 
-# Start
+# 启动
 
 ```bash
 npm install
 npm start
-`
+```
+
+# 注意问题
+
+1. 数据库采用utf-8编码
+2. 绑定80端口
+3. 采用Node-forever 守护进程守护整个服务端
