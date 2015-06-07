@@ -1,0 +1,35 @@
+{
+  "name": "Herald_BulletScreen",
+  "version": "1.0.0",
+  "description": "Just used for Herald bullet screen",
+  "main": "index.js",
+  "dependencies": {
+    "body-parser": "^1.12.4",
+    "cookie-parser": "^1.3.5",
+    "express": "^4.12.4",
+    "express-middlewares-js": "^1.0.3",
+    "mysql": "^2.6.2",
+    "nodejs-wechat": "0.0.8",
+    "socket.io": "^1.3.5",
+    "superagent": "^1.2.0",
+    "ws": "^0.7.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lizhuoli1126/Herald_BulletScreen.git"
+  },
+  "keywords": [
+    "bulletscreen"
+  ],
+  "author": "lizhuoli",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lizhuoli1126/Herald_BulletScreen/issues"
+  },
+  "homepage": "https://github.com/lizhuoli1126/Herald_BulletScreen"
+}

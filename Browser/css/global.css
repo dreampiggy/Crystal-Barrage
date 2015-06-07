@@ -1,0 +1,17 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+html{
+  height: 100%;
+}
+
+.bubble{
+  font-weight: bold;
+}
+
+body{
+  font-family: "PetalaPro","Helvetica Neue",Helvetica,"Arial","Source Han Sans CN","Hiragino Sans GB","Microsoft YaHei","Microsoft JhengHei",sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
