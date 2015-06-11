@@ -27,7 +27,7 @@
 1. 下载整个Git仓库
 2. 部署服务器：进入`/Server`，导入SQL，修改`/Server/config.js`中的数据库用户名及密码，根据自己的微信公众号配置ip及token，使用`npm install`构建项目，`npm start`启动项目
 3. 部署浏览器：进入`/Broswer`，使用`Gulp`构建项目
-4. 部署客户端：进入`'/Unity'`，打开Unity项目，下载依赖库，编译或者Debug运行
+4. 部署客户端：进入`/Unity`，打开Unity项目，下载依赖库，编译或者Debug运行
 5. 简单实用：加载Chrome扩展，点击icon运行
 
 **然后开始微信发发发！！！**
